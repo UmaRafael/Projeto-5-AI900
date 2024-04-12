@@ -1,0 +1,9 @@
+1. In Azure OpenAI Studio, navigate to the Chat playground in the left pane.
+2. In the Assistant setup section at the top, select the Default system message template.
+3. In the Chat session section, enter the following prompt.
+4. The model will likely respond with some text describing some cultural attributes of Scottish people. While the description may not be applicable to every person from Scotland, it should be fairly general and inoffensive.
+5. In the Assistant setup section, change the Setup message to the following text:
+6. Save the changes to the system message.
+7. In the Chat session section, re-enter the following prompt.
+8. Observe the output, which should hopefully indicate that the request to be racist and derogative is not supported. This prevention of offensive output is the result of the default content filters in Azure OpenAI.
+
