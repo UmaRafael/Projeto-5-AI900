@@ -1,0 +1,5 @@
+1. In Azure OpenAI Studio, navigate to the DALL-E playground in the left pane.
+2. Enter the following prompt:
+3. Select Generate and view the results, which should consist of an image based on the description you provided in the prompt, similar to this:
+4. Generate a second image by modifying the prompt to:
+5. Verify that the new image matches the requirements of the prompt, similar to this:
