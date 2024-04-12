@@ -1,0 +1,17 @@
+Now that you have deployed a model, you can use it in the Chat playground to generate natural language output from prompts that you submit in a chat interface.
+
+1. In Azure OpenAI Studio, navigate to the Chat playground in the left pane.
+The Chat playground provides a chatbot interface with which you can interact with your deployed model.
+
+2.In the Configuration pane, ensure that your model deployment is selected.
+
+3. In the Assistant setup pane, select the Default system message template, and view the system message this template creates. The system message defines how the model will behave in your chat session.
+
+4. In the Chat session section, enter the following user message, code:
+What is generative AI?
+
+5. Observe the output returned by the model, which should provide a definition of generative AI.
+6. Enter the following user message as a follow-up question:
+    What are three benefits it provides?
+    
+7. Review the output, noting that the chat session has kept track of the previous input and response to provide context (so it correctly interprets “it” as referring to “generative AI”) and that it provides a suitable response based on what was requested (it should return three benefits of generative AI).
