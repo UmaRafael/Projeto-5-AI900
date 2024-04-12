@@ -1,0 +1,4 @@
+You will need an Azure subscription that has been approved for access to the Azure OpenAI service for both text and code models, and DALL-E image generation models.
+
+   To sign up for a free Azure subscription, visit https://azure.microsoft.com/free.
+   To request access to the Azure OpenAI service, visit https://aka.ms/oaiapply.
