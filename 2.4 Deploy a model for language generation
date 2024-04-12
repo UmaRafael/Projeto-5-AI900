@@ -1,0 +1,13 @@
+To experiment with natural language generation, you must first deploy a model.
+
+1. On the Models page view the available models in your Azure OpenAI service instance.
+2. Select any of the gpt-35-turbo models for which the Deployable status is Yes, and then select Deploy:
+3. Create a new deployment with the following settings:
+   Model: gpt-35-turbo
+   Model version: Auto-update to default
+   Deployment name: A unique name for your model deployment
+   Advanced options
+   Content filter: Default
+   Deployment type: Standard
+   Tokens per minute rate limit: 5K*
+   Enable dynamic quota: Enabled
