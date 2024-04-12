@@ -1,0 +1,10 @@
+1. In Azure OpenAI Studio, view the Content filters page.
+2. Select Create customized content filter and review the default settings for a content filter.
+   Content filters are based on restrictions for four categories of potentially harmful content:
+      Hate: Language that expresses discrimination or pejorative statements.
+      Sexual: Sexually explicit or abusive language.
+      Violence: Language that describes, advocates, or glorifies violence.
+      Self-harm: Language that describes or encourages self-harm.
+  Filters are applied for each of these categories to prompts and completions, with a severity setting of safe, low, medium, and high used to determine what specific kinds of language are intercepted and prevented by the filter.
+
+3. Observe that the default settings (which are applied when no custom content filter is present) allow low severity language for each category. You can create a more restrictive custom filter by applying filters to one or more low severity levels. You cannot however make the filters less restrictive (by allowing medium or high severity language) unless you have applied for and received permission to do so in your subscription. Permission to do so is based on the requirements of your specific generative AI scenario.
